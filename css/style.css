@@ -90,3 +90,19 @@ img {
 }
 
 
+/* Styles pour le bouton */
+button {
+    width: 40px;
+    height: 20px;
+    background-color: orange; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    border: none; /* Supprimer les bordures */
+    border-radius: 10px; /* Arrondir les coins */
+    font-size: 18px; /* Taille de la police */
+    cursor: pointer; /* Changer le curseur au survol */
+    transition: background-color 0.3s ease; /* Transition douce pour la couleur de fond */
+}
+
+button:hover {
+    background-color: #e68900; /* Couleur de fond au survol */
+}
